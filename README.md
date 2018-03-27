@@ -1,3 +1,4 @@
+
 # e-agent v1.0
 So this is a little side project of mine. 
 The idea would be to have the agent evolving its heuristic function on its on through hundreds of iteration. 
@@ -13,6 +14,7 @@ However random minor mutation were applied to all the descendents. After mutatio
 Through a few hundred simulations, we can observe significant growth. 
 
 execute the program by running
+
 python main.py (size of the map) (How Far can the agents see) (output file name without .txt/png)
 
 The program produces a PNG file graphing the highest score of every round. I also provided a txt version of the data if you want to graph your own version. 
