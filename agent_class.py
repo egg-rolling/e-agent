@@ -40,6 +40,8 @@ class Agent:
         self.build_heuristic()
         self.build_value()
         #print "Character setup finished"
+    def brief_info(self):
+        print ("Current score:",self.score)
     def info(self): #for debug sake, not called within the finished program
         print ("I am", self.name)
         print ("I am at",self.x,self.y)
